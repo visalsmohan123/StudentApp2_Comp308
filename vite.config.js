@@ -8,7 +8,7 @@ export default defineConfig({
     federation({
       name: 'studentapp2',
       remotes: {
-        studentapp1: 'http://localhost:3001/dist/assets/remoteEntry.js',
+        studentapp1: 'https://comp308-student-app1.netlify.app/assets/remoteEntry.js',
       },
       
       shared: ['react', 'react-dom'],
